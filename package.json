@@ -1,5 +1,5 @@
 {
-  "name": "attila",
+  "name": "solo-attila",
   "description": "Ghost Theme",
   "demo": "https://attila.peteramende.de",
   "version": "3.6.1",
@@ -33,12 +33,13 @@
     "url": "https://github.com/zutrinken/attila.git"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
+    "autoprefixer": "^10.4.13",
     "grunt": "^1.5.3",
-    "grunt-contrib-clean": "^2.0.0",
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-compress": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-uglify": "^5.2.2",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-postcss": "^0.9.0",
     "grunt-sass": "^3.1.0",
@@ -73,9 +74,9 @@
         "default": "System"
       },
       "disqus_shortname": {
-          "type": "text",
-          "default": "",
-          "group": "post"
+        "type": "text",
+        "default": "",
+        "group": "post"
       },
       "darkmode_accent_color": {
         "type": "color",
